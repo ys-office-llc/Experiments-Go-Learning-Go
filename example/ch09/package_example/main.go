@@ -9,5 +9,5 @@ import (
 func main() {
 	num := math.Double(2)  // パッケージmath（math/math.go）
 	output := print.Format(num) // パッケージprint（formatter/formatter.go）
-	fmt.Println(output)
+	fmt.Println(output) 
 }

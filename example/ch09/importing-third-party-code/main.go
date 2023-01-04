@@ -12,7 +12,7 @@ import (
 func main() {
 	if len(os.Args) < 3 {
 		fmt.Println("Need two parameters: amount and percent")
-		           // 2つのパラメータが必要。金額と％
+		// 2つのパラメータが必要。金額と％
 		os.Exit(1)
 	}
 	amount, err := decimal.NewFromString(os.Args[1])

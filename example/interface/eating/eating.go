@@ -1,3 +1,4 @@
+// https://qiita.com/rtok/items/46eadbf7b0b7a1b0eb08
 package main
 
 import "fmt"

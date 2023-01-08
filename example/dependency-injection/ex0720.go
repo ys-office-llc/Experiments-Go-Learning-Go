@@ -17,7 +17,6 @@ import (
 
 func LogOutput(message string) {
 	fmt.Println(message)
-
 }
 
 type SimpleDataStore struct {
